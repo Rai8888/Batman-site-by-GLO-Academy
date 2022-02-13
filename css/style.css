@@ -55,7 +55,7 @@
 
 html,
 body {
-  font-size: 62.5%; /* 16px * 0.625 = 10px (сбрасываем дефолтный размер шрифта в браузере до 10px); тогда 1rem = 10px; */
+  font-size: 62.5%; /* 16px * 0.625 = 10px so: 1rem = 10px; */
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
   color: #fff;
