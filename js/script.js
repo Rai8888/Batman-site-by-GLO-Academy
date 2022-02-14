@@ -1,8 +1,9 @@
 const swiper = new Swiper('.main-slider', {
+    slidesPerView: 2,
     spaceBetween: 30,
     loop: true,
     navigation: {
-        nextEl: '.main-slider__arrow',
+      nextEl: '.main-slider__arrow',
     },
     breakpoints: {
         320: {
@@ -14,16 +15,16 @@ const swiper = new Swiper('.main-slider', {
     }
 });
 
-let burgerMenu = document.querySelector('.menu-burger');
+let burger = document.querySelector('.menu-burger');
 let closeMenu = document.querySelector('.header__menu-close');
 let menuMobile = document.querySelector('.header');
 
-burgerMenu.addEventListener('click', () => {
-    menuMobile.style.display = "block";
+burger.addEventListener('click', () =>{
+    menuMobile.style.display = 'block'
 })
 
 closeMenu.addEventListener('click', () => {
-    menuMobile.style.display = "none";
+    menuMobile.style.display = 'none'
 })
 
 const modalWindow = document.querySelector('.modal');
@@ -36,7 +37,7 @@ buttonModal.addEventListener('click', (e) => {
 modalWindow.addEventListener('click', (e) => {
     const isModal = e.target.closest('.modal__inner');
 
-    if (!isModal) {
-        modalWindow.classList.remove('active');
+    if(!isModal) {
+        modalWindow.classList.remove('active')
     }
 })
