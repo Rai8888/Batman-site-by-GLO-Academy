@@ -59,16 +59,12 @@ img {
     height: 100%;
 }
 
-/* Container
-=============================================== */
-
 .container {
     width: 113.5rem;
     margin: 0 auto;
 }
 
-/* Media html
-=============================================== */
+/* Media html */
 
 @media (max-width: 108em) {
     html {
@@ -160,8 +156,7 @@ img {
     }
 }
 
-/* Header
-=============================================== */
+/* Header */
 
 .header {
     position: absolute;
@@ -221,8 +216,7 @@ img {
     display: none;
 }
 
-/* Main
-=============================================== */
+/* Main  */
 
 .main {
     padding-top: 18.7rem;
@@ -391,8 +385,7 @@ img {
     flex-shrink: 0;
 }
 
-/* Footer
-=============================================== */
+/* Footer */
 
 .footer {
     background-color: #030102;
@@ -426,8 +419,7 @@ img {
     margin-right: 2.5rem;
 }
 
-/* Modal
-=============================================== */
+/* Modal */
 
 .modal {
     display: flex;
@@ -461,8 +453,7 @@ img {
     display: flex;
 }
 
-/* Media
-=============================================== */
+/* Media adaptive */
 
 @media (max-width: 48em) {
     html {
